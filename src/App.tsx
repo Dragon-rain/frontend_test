@@ -1,24 +1,16 @@
+import { Card, Space } from 'antd';
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import TodoContaner from './components/todos/ToDoContaner';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{backgroundColor: '#2f54eb', height:'100vh'}}>
+      <Space direction="horizontal" style={{width: '100%', justifyContent: 'center', marginTop: '3em'}}>
+        <Card style={{ width: 400 }}>
+          <TodoContaner/>
+        </Card>
+      </Space>
     </div>
   );
 }

@@ -1,0 +1,38 @@
+{
+  "todos": [
+    {
+      "id": 3,
+      "title": "UPDATED TITLE",
+      "created": "8:15:30 AM",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "title": "json-server 5",
+      "created": "8:15:30 AM",
+      "completed": false
+    },
+    {
+      "id": 6,
+      "title": "UPDATED TUTLE 6",
+      "created": "8:15:30 AM",
+      "completed": false
+    },
+    {
+      "id": 8,
+      "title": "json-server 8",
+      "created": "8:15:30 AM",
+      "completed": false
+    },
+    {
+      "title": "save the world",
+      "completed": false,
+      "created": "10:26:47 AM",
+      "id": 9
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
